@@ -81,7 +81,7 @@ const MessageInput = () => {
           <input
             type="file"
             accept="image/*"
-            className="hidden"
+            className="hidden" // In this the choose file attachment is been not shown in the chat section.
             ref={fileInputRef}
             onChange={handleImageChange}
           />

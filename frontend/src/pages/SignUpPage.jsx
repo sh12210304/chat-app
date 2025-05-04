@@ -52,7 +52,9 @@ const SignUpPage = () => {
               <p className="text-base-content/60">Get started with your free account</p>
             </div>
           </div>
+            {/* Form Section  */}
 
+            {/* Name Section */}
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="form-control">
               <label className="label">
@@ -72,6 +74,7 @@ const SignUpPage = () => {
               </div>
             </div>
 
+              {/* Email Section */}
             <div className="form-control">
               <label className="label">
                 <span className="label-text font-medium">Email</span>
@@ -90,6 +93,7 @@ const SignUpPage = () => {
               </div>
             </div>
 
+              {/* Password Section */}
             <div className="form-control">
               <label className="label">
                 <span className="label-text font-medium">Password</span>
@@ -119,6 +123,7 @@ const SignUpPage = () => {
               </div>
             </div>
 
+              {/* Loading Signup Animated Spin */}
             <button type="submit" className="btn btn-primary w-full" disabled={isSigningUp}>
               {isSigningUp ? (
                 <>
@@ -131,6 +136,7 @@ const SignUpPage = () => {
             </button>
           </form>
 
+              {/* Switching to Login page for signin */}
           <div className="text-center">
             <p className="text-base-content/60">
               Already have an account?{" "}
